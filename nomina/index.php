@@ -8,7 +8,7 @@
 <body>
 
 <?php
-require_once 'controlador/empleadocontroller.php';
+require_once 'controlador/empleadocontrolador.php';
 
 $accion = $_GET['accion'] ?? 'listar';
 $controller = new empleadocontroller();
